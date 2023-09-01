@@ -6,5 +6,5 @@ metadata:
 stringData:
   provider.token: >-
     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
-  webhook.secret: testing
+  webhook.secret: "testing"
 type: Opaque
