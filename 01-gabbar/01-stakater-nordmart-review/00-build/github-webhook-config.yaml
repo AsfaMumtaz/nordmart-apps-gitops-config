@@ -3,7 +3,7 @@ apiVersion: v1
 metadata:
   name: github-webhook-config
   namespace: arsenal-build
-dar=ta:
+data:
   provider.token: >-
     Z2hwX05JbFFzMmo2azVUM1RZdzN6V05GbGNEaXNYeUt3RDBWUDQ4Wgo=
 stringData:
