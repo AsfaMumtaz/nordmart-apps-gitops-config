@@ -5,6 +5,6 @@ metadata:
   namespace: arsenal-build
 data:
   provider.token: >-
-    Z2l0aHViX3BhdF8xMUFHSU9FQ1EwNjcwWHBRMVB5Q3pjX1VBZHg5dGFhNklrU0NmenN1dTQ2bVd0ZlRqbmJZWnFsTkZZVUhNTEdMb0YyVlFMM1hNTGxIdkVXeVlZCg==
+    Z2l0aHViX3BhdF8xMUFHSU9FQ1EwNjcwWHBRMVB5Q3pjX1VBZHg5dGFhNklrU0NmenN1dTQ2bVd0ZlRqbmJZWnFsTkZZVUhNTEdMb0YyVlFMM1hNTGxIdkVXeVlZ
   webhook.secret: dGVzdA==
 type: Opaque
