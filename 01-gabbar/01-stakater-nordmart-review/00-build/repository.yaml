@@ -5,7 +5,7 @@ metadata:
   namespace: arsenal-build
 spec:
   git_provider:
-    url: url: "https://github.enterprise.com"
+    url: "https://github.enterprise.com"
     user: AsfaMumtaz
     secret:
       key: provider.token
