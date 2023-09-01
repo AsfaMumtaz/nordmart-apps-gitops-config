@@ -5,7 +5,7 @@ metadata:
   namespace: arsenal-build
 data:
   provider.token: >-
-    Z2hwX05JbFFzMmo2azVUM1RZdzN6V05GbGNEaXNYeUt3RDBWUDQ4Wgo=
+    Z2hwX05JbFFzMmo2azVUM1RZdzN6V05GbGNEaXNYeUt3RDBWUDQ4Wg==
 stringData:
   webhook.secret: "testing"
 type: Opaque
