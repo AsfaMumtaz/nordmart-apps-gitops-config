@@ -3,8 +3,8 @@ apiVersion: v1
 metadata:
   name: github-webhook-config
   namespace: arsenal-build
-data:
+stringData:
   provider.token: >-
-    Z2l0aHViX3BhdF8xMUFHSU9FQ1EwNjcwWHBRMVB5Q3pjX1VBZHg5dGFhNklrU0NmenN1dTQ2bVd0ZlRqbmJZWnFsTkZZVUhNTEdMb0YyVlFMM1hNTGxIdkVXeVlZ
-  webhook.secret: dGVzdAo=
+    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
+  webhook.secret: test
 type: Opaque
