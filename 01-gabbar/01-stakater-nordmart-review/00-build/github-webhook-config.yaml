@@ -5,6 +5,6 @@ metadata:
   namespace: arsenal-build
 stringData:
   provider.token: >-
-    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
+    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
   webhook.secret: "testing"
 type: Opaque
