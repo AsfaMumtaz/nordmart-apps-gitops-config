@@ -1,8 +1,8 @@
-#kind: Secret
-#apiVersion: v1
-#metadata:
-#  name: github-webhook-config
-#data:
-#  provider.token: Z2hwX1JtQ2RPVE91VGtzd1kzTlo4ZHl4ek5PRlJoYzJvTzRJempzbg==
-#  webhook.secret: dGVzdA==
-#type: Opaque
+kind: Secret
+apiVersion: v1
+metadata:
+  name: github-webhook-configu
+data:
+  provider.token: dGVzdA==
+  webhook.secret: dGVzdA==
+type: Opaque
