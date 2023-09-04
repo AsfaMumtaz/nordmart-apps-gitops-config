@@ -2,9 +2,7 @@ kind: Secret
 apiVersion: v1
 metadata:
   name: github-webhook-config
-  namespace: arsenal-build
 data:
-  provider.token: >-
-    Z2hwX0hEOW1USWpWdU56RUI4aVluamh5R3JaZVU0alZwcjF6eGxKUw==
+  provider.token: Z2hwX014cGtYY2JuU2xTSUttSWphRGhvUmJjTXVIZnNZMDNFVElZNQ==
   webhook.secret: dGVzdA==
 type: Opaque

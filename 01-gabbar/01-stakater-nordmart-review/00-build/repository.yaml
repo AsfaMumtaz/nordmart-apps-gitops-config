@@ -2,7 +2,7 @@ apiVersion: pipelinesascode.tekton.dev/v1alpha1
 kind: Repository
 metadata:
   name: git-stakater-nordmart-review-api-git
-  namespace: arsenal-build
+
 spec:
   git_provider:
     user: AsfaMumtaz
