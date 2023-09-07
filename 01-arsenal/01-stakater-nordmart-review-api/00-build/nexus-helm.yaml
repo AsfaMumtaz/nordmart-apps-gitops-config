@@ -1,0 +1,9 @@
+kind: Secret
+apiVersion: v1
+metadata:
+  name: nexus-helm-auth-forked
+data:
+  username:
+  password:
+type: Opaque
+

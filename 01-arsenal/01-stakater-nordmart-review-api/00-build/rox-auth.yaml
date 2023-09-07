@@ -1,0 +1,9 @@
+kind: Secret
+apiVersion: v1
+metadata:
+  name: rox-auth
+data:
+  rox-central-endpoint:
+  rox-api-token:
+type: Opaque
+
