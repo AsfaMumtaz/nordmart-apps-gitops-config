@@ -15,4 +15,4 @@ spec:
   dataFrom:
     - extract:
         conversionStrategy: Default
-        key: chelsea/helm-reg-creds
+        key: helm-reg-creds

@@ -15,5 +15,5 @@ spec:
   dataFrom:
     - extract:
           conversionStrategy: Default
-          key: chelsea/docker-reg-creds
+          key: docker-reg-creds
 
