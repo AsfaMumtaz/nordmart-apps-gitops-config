@@ -15,4 +15,4 @@ spec:
   dataFrom:
     - extract:
         conversionStrategy: Default
-        key: chelsea/rox-creds
+        key: rox-creds
