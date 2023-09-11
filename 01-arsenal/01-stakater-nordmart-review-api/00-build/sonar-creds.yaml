@@ -1,18 +1,18 @@
 apiVersion: external-secrets.io/v1beta1
 kind: ExternalSecret
 metadata:
-  name: nexus-helm-auth-forked
+  name: sonar-creds
 spec:
   secretStoreRef:
     name: tenant-vault-secret-store
     kind: SecretStore
   refreshInterval: "1m0s"
   target:
-    name: nexus-helm-auth-forked
+    name: sonar-creds
     creationPolicy: 'Owner'
     template:
       type: Opaque
   dataFrom:
     - extract:
         conversionStrategy: Default
-        key: arsenal/nexus-helm-auth-forked
+        key: chelsea/sonar-creds

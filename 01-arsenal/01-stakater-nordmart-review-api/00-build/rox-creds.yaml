@@ -8,11 +8,11 @@ spec:
     kind: SecretStore
   refreshInterval: "1m0s"
   target:
-    name: rox-auth
+    name: rox-creds
     creationPolicy: 'Owner'
     template:
       type: Opaque
   dataFrom:
     - extract:
         conversionStrategy: Default
-        key: arsenal/rox-creds
+        key: chelsea/rox-creds

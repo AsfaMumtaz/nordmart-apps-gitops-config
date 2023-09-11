@@ -1,18 +1,19 @@
 apiVersion: external-secrets.io/v1beta1
 kind: ExternalSecret
 metadata:
-  name: sonarqube-auth-forked
+  name: docker-reg-creds
 spec:
   secretStoreRef:
     name: tenant-vault-secret-store
     kind: SecretStore
   refreshInterval: "1m0s"
   target:
-    name: sonarqube-auth-forked
+    name: docker-reg-creds
     creationPolicy: 'Owner'
     template:
       type: Opaque
   dataFrom:
     - extract:
-        conversionStrategy: Default
-        key: arsenal/sonarqube-auth-forked
+          conversionStrategy: Default
+          key: chelsea/docker-reg-creds
+
