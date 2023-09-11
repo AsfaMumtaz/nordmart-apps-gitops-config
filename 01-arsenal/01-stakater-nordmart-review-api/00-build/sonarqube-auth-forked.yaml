@@ -1,9 +1,16 @@
-kind: Secret
-apiVersion: v1
+apiVersion: external-secrets.io/v1beta1
+kind: ExternalSecret
 metadata:
   name: sonarqube-auth-forked
-data:
-  username:
-  password:
-type: Opaque
-
+spec:
+  secretStoreRef:
+    name: tenant-vault-secret-store
+    kind: SecretStore
+  refreshInterval: "1m0s"
+  target:
+    name: sonarqube-auth-forked
+    creationPolicy: 'Owner'
+    template:
+      type: Opaque
+  dataFrom:
+    - key: arsenal/sonarqube-auth-forked

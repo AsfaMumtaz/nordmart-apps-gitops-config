@@ -1,9 +1,16 @@
-kind: Secret
-apiVersion: v1
+apiVersion: external-secrets.io/v1beta1
+kind: ExternalSecret
 metadata:
-  name: rox-auth
-data:
-  rox-central-endpoint:
-  rox-api-token:
-type: Opaque
-
+  name: rox-creds
+spec:
+  secretStoreRef:
+    name: tenant-vault-secret-store
+    kind: SecretStore
+  refreshInterval: "1m0s"
+  target:
+    name: rox-auth
+    creationPolicy: 'Owner'
+    template:
+      type: Opaque
+  dataFrom:
+    - key: arsenal/rox-creds
