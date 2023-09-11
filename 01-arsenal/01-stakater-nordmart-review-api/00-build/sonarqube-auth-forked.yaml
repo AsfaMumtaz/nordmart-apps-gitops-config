@@ -13,4 +13,6 @@ spec:
     template:
       type: Opaque
   dataFrom:
-    - key: arsenal/sonarqube-auth-forked
+    - extract:
+        conversionStrategy: Default
+        key: arsenal/sonarqube-auth-forked

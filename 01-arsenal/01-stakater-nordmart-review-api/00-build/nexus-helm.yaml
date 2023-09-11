@@ -13,4 +13,6 @@ spec:
     template:
       type: Opaque
   dataFrom:
-    - key: arsenal/nexus-helm-auth-forked
+    - extract:
+        conversionStrategy: Default
+        key: arsenal/nexus-helm-auth-forked

@@ -13,4 +13,7 @@ spec:
     template:
       type: Opaque
   dataFrom:
-    - key: arsenal/nexus-docker-config
+    - extract:
+          conversionStrategy: Default
+          key: arsenal/nexus-docker-config
+
