@@ -11,7 +11,7 @@ spec:
   destination:
     namespace: chelsea-build
     server: 'https://kubernetes.default.svc'
-  project: gabbar
+  project: chelsea
   source:
     path: 02-chelsea/01-stakater-nordmart-review/00-build
     repoURL: 'https://github.com/AsfaMumtaz/nordmart-apps-gitops-config.git'
