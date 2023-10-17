@@ -18,4 +18,3 @@ spec:
       remoteRef:
         key: ssh-config
         property: id_rsa
-
